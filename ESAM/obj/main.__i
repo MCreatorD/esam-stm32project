@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\app\inc -I..\lib\inc -I..\startup -I..\bsp\src 
+-I D:\ThinkPad\ARM\RV31\INC 
+-I D:\ThinkPad\ARM\CMSIS\Include 
+-I D:\ThinkPad\ARM\Inc\ST\STM32F10x 
+-DUSE_STDPERIPH_DRIVER -DSTM32F10X_CL -o "..\obj\main.o" --omf_browse "..\obj\main.crf" --depend "..\obj\main.d" "..\app\src\main.c"
